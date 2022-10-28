@@ -24,6 +24,14 @@ public class LoginPage {
     @FindBy(xpath = "//*[@id=\"body-login\"]/div[1]/div/main/div/div/form/fieldset/p[3]")
     public WebElement wrongCredentials;
 
+@FindBy(xpath = "//*[@id=\"body-login\"]/div[1]/div/main/div/div/form/fieldset/p[2]/a/img")
+    public WebElement ButtonChangeTypePassword;
+
+@FindBy(id = "lost-password")
+    public WebElement ButtonForgotPassword;
+
+@FindBy(id = "reset-password-submit")
+    public WebElement RessetPasswordButton;
 
 
 }

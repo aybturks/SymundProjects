@@ -31,6 +31,7 @@ public class LoginValid_AC1 {
         String actualTittle = Driver.getDriver().getTitle();
         String expectedTittle = "Dashboard - Symund - QA";
         Assert.assertEquals(actualTittle,expectedTittle);
+        Driver.closeDriver();
     }
 
 }
